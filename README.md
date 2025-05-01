@@ -8,7 +8,7 @@
 
 ### Step #1 - Add the event listener <br>
 
-This webpage includes a quiz about who invented jQuery. You're going to make this quiz interactive with JS & jQuery. In this first step, add an event listener to the form's 'submit' event.
+You're going to make this quiz interactive with JS & jQuery. In this first step, add an event listener to the form's 'submit' event.
 <br><br>
 _Hint:_<br>`$(_).on(_, _);`
 <br><br>
