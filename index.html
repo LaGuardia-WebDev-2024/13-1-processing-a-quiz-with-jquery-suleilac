@@ -24,7 +24,28 @@
     <div id="result"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script></script>
+    <script>
+
+
+          //submit
+
+         $("#trivia-form").on("submit", function(event){
+
+      event.preventDefault();   
+
+          var $answer = $("#trivia-answer");
+            var answer = $answer.val();
+            console.log(answer);
+      if (answer == 'hall') {
+      $('#result').text("YAYYY YOU DID IT");
+      }
+
+            else {
+
+              $("#result").text("erm so actually no...");
+
+            }});
+    </script>
   </body>
 </html>
 
